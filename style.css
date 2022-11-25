@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.box {
+    width: 200px;
+    cursor: pointer
+}
+
+.title-img {
+    width: 160px;
+    height: 160px
+}
+
+.title {
+    font-size: 14px;
+    margin-top: 24px;
+    margin-bottom: 10px
+}
+
+.reating {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 10px
+}
+
+.reating_star {
+    width: 15px;
+    height: 15px
+}
+.reating p {
+    font-size: 14px
+}
+
+.price {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 5px;
+    align-items: center
+}
+
+.current_price {
+    font-size: 20px
+}
+
+.old_price {
+    font-size: 16px;
+    color: gray;
+    text-decoration: line-through
+}
+
+.box_bot {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 15px
+}
+
+.box_bot img {
+    filter: invert(100%);
+    cursor: pointer;
+    transition: .2s
+}
+
+.box_bot img:hover {
+    filter: invert(70%)
+}
+
+.chart, .like {
+    filter: invert(80%)
+}
+:root {
+    --main-color: #E31235
+}
+
+.def-btn {
+    all: unset;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: var(--main-color);
+    padding: 10px 24px;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer
+}
+.container{
+    margin: 0 auto;
+    width: fit-content;
+}
+.productss{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.saw {
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 25px
+}
